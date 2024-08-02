@@ -1,8 +1,5 @@
 provider "aws" {
   region     = "us-west-2"
-  access_key = "$access"
-  secret_key = "$secret"
-
 }
 terraform {
   required_providers {
